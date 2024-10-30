@@ -1,0 +1,62 @@
+
+TODO - list
+
+Canasta - 
+
+	Penality for not going out
+	Block going out if not authorised 
+
+	Warning of low cards in stock 
+	
+	Players Hand Card Counts
+	Bug: Can't pick up pack to add to Mixed Canasta 
+	
+Done:
+	"Go Out" should only appear once picked up 
+	Show result of "Go Out" request 
+	Go Out responder should have all cards disabled 
+	Show last 4 discards 
+	Red 3's should collapse with 4 cards
+
+------------------------------------------------------
+
+Check Class Vars in WPCardzNetDBaseClass
+
+[$this->currGameRec] => 25
+[$this->gameId] => 15
+[$this->gameMeta] => 3
+
+[$this->currRoundRec] => 8
+[$this->roundId] => 21
+[$this->roundState] => 4
+
+[$this->currPlayersRec] => 29
+
+[$this->firstPlayerId] => 2
+[$this->nextPlayerId] => 5
+[$this->activePlayerId] => 1
+[$this->gameTicker] => 5
+[$this->cardsPerPlayer] => 2
+[$this->playersPerUser] => 1
+[$this->currTrick] => 8
+[$this->noOfCards] => 2
+
+[$this->thisPlayer] => 18
+
+[$this->cardFacesList] => 4
+
+[$this->debugToLog] => 1
+[$this->isSeqMode] => 3
+[$this->ajaxVars] => 1
+[$this->jsGlobals] => 1
+[$this->userId] => 4
+[$this->atts] => 1
+
+[$this->PurgeDBDone] => 1
+
+[$this->logFileObj] => 3
+
+[$this->emailObjClass] => 1
+[$this->emailClassFilePath] => 2
+[$this->emailObj] => 1
+

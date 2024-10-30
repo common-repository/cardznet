@@ -1,0 +1,514 @@
+/* 
+Description: CardzNet Admin Style Sheet
+ 
+Copyright 2014 Malcolm Shergold
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+*/
+
+/* Style Remnants of WP Elements */
+html#cardznet_html,
+body#cardznet_body
+{ 
+	margin: 0px !important; 
+	padding: 0px !important; 
+	border: 0px !important; 
+	height: 100%;
+	background-color: #669933;
+}
+
+.cardznet_hide
+{
+  display: none !important;
+}
+
+div#cardznet .hidden-div
+{
+  display: none !important;
+}
+
+div#cardznet
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+  background-color: #669933;
+  color: #fff;
+  text-align: center;
+  width: fit-content;
+}
+
+div#cardznet .page 
+{
+  max-width: 100%;
+  min-width: 800px;
+  margin: 0 auto;
+  min-height: 600px;
+  position: relative;
+  transform-origin: 0% 0%;
+  z-index: 10;
+}
+
+.cardznet_busypage 
+{
+  background-color: #ebe603 !important;
+}
+
+div#cardznet .info_row
+{
+  height: 60px;
+  line-height: 60px;
+}
+
+div#cardznet .info_items
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	float: left;
+	width: 100%;
+	z-index: 2;
+}
+
+div#cardznet .info_placeholder
+{
+	position: relative;
+	z-index: 1;
+}
+
+div#cardznet .info_block
+{
+	display: inline-block;
+	height:	100%;
+	float:	left;
+}
+
+div#cardznet .info_left
+{
+	width:	15%;
+}
+
+div#cardznet .info_middle
+{
+	width:	60%;
+}
+
+div#cardznet .info_right
+{
+	width:	25%;
+}
+
+div#cardznet .info_rightItems
+{
+	display: inline-block;
+	float: right;
+}
+
+
+div#cardznet .info_player
+{
+	display: inline-block;
+}
+
+div#cardznet .info
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#cardznet .readyToPlay
+{
+	background-color: green;
+}
+
+div#cardznet .waitingToPlay
+{
+	background-color: red;
+}
+
+div#cardznet #tickertell
+{
+	height: 15px;
+	width: 15px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+div#cardznet .tableview
+{
+	position: absolute;
+	left: 50px;
+	float: right;
+    height: 148px;
+    width: 148px;
+    border-radius: 75px;
+    border: solid 1px #406020;
+    background-color: #406020;
+}
+
+div#cardznet .tableview .player
+{
+    height: 15px;
+    width: 15px;
+    background-image: url(../images/player.png); 
+}
+
+div#cardznet .prompt,
+div#cardznet .refresh
+{
+    position: absolute;
+    height: 60px;
+    line-height: 60px;
+    top: 75%;
+    width: 100%;
+	z-index: 1;
+}
+
+div#cardznet .prompt_left
+{
+	width: 250px;
+	height: 60px;
+	float: left;
+}
+
+div#cardznet .prompt
+{
+    background-color: red;
+}
+
+div#cardznet .controls
+{
+	position: absolute;
+	width: 400px;
+	left: calc(50% - 200px);
+	top: 220px;
+}
+
+div#cardznet .clickbutton
+{
+	height: 50px;
+	padding: 20px 20px 40px 20px;
+	background-color: yellow;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+div#cardznet .menubutton
+{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin: 20px;
+}
+
+div#cardznet .dealcards
+{
+    margin: 30px;
+    padding: 10px;
+}
+
+div#cardznet .tablediv 
+{
+}
+
+div#cardznet #unhidecardsbutton input
+{
+	padding: 5px;
+}
+
+div#cardznet .activecard
+{
+cursor: pointer;
+}
+
+div#cardznet .card-back,
+div#cardznet .card-hidden 
+{
+cursor: auto !important;
+}
+
+div#cardznet .dealer-total
+{
+  visibility: hidden;
+}
+
+div#cardznet .tableview .tabletop
+{
+    height: 150px;
+    width: 150px;
+}
+
+div#cardznet .tableview .playericon
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+div#cardznet .tableview .playericon img
+{
+    max-width: 30px;
+}
+
+div#cardznet .tableview .player_view_frame
+{
+	left: -185px;
+	top: 30px;
+	width: 400px;
+	position: absolute;
+}
+
+div#cardznet .tableview .player_name
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+div#cardznet .player_view 
+{
+font-size: 12px;
+padding: 2px 5px;
+border: solid black 1px;
+word-break: normal;
+word-wrap: normal;
+}
+
+div#cardznet .player_view_inactive 
+{
+color: black;
+background-color: white; 
+}
+
+div#cardznet .player_view_active 
+{
+color: white;
+background-color: #669900 !important;
+}
+
+div#cardznet #playericon-1of2 { left: 60px; top: 135px;}
+div#cardznet #playericon-2of2 { left: 60px; top: -15px;}
+div#cardznet #playericon-1of3 { left: 60px; top: 135px;}
+div#cardznet #playericon-2of3 { left: -5px; top: 23px;}
+div#cardznet #playericon-3of3 { left: 125px; top: 23px;}
+div#cardznet #playericon-1of4 { left: 60px; top: 135px;}
+div#cardznet #playericon-2of4 { left: -15px; top: 60px;}
+div#cardznet #playericon-3of4 { left: 60px; top: -15px;}
+div#cardznet #playericon-4of4 { left: 135px; top: 60px;}
+div#cardznet #playericon-1of5 { left: 60px; top: 135px;}
+div#cardznet #playericon-2of5 { left: -11px; top: 83px;}
+div#cardznet #playericon-3of5 { left: 16px; top: -1px;}
+div#cardznet #playericon-4of5 { left: 104px; top: -1px;}
+div#cardznet #playericon-1of6 { left: 60px; top: 135px;}
+div#cardznet #playericon-2of6 { left: -5px; top: 98px;}
+div#cardznet #playericon-3of6 { left: -5px; top: 23px;}
+div#cardznet #playericon-4of6 { left: 60px; top: -15px;}
+div#cardznet #playericon-5of6 { left: 125px; top: 23px;}
+div#cardznet #playericon-6of6 { left: 125px; top: 98px;}
+
+/* Style WP CardzNet Scores Page */
+
+#scores_header
+{
+	height: 50px;
+	line-height: 50px;
+}
+
+div#cardznet div#scores_header
+{
+	height: 50px;
+	line-height: 50px;
+}
+
+div#cardznet .scores_header
+{
+	height: 50px;
+	line-height: 50px;
+}
+
+div#cardznet table#scores_table
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+div#cardznet table#scores_table tr
+{
+	
+}
+
+div#cardznet table#scores_table td
+{
+	height: 25px;
+	font-size: 30px;
+	padding: 10px;
+	border-bottom: white solid 1px;
+}
+
+div#cardznet .playerName
+{
+	width: 50%;
+}
+
+div#cardznet .playerScore,
+div#cardznet .playerTotal
+{
+	width: 25%;
+}
+
+div#cardznet .scores_table_header
+{
+	
+}
+
+div#cardznet .scores_table_row
+{
+	
+}
+
+div#cardznet .card
+{
+	border: 0;
+	min-width: 0;
+	min-height: 0;
+	background: transparent;
+}
+
+div#cardznet .transparent
+{
+	background-color: #669933 !important;
+}
+
+div#cardznet .card-frame 
+{ 
+	background-color: white; 
+	position: absolute; 
+	border: solid black 1px; 
+	border-radius: 10px;
+}
+
+div#cardznet .card-highlight 
+{
+	background-color: yellow !important; 
+	cursor: pointer;
+}
+
+div#cardznet .card-face 
+{ 
+	left: 0px;
+	top: 0px;
+	float: left; 
+	position: absolute; 
+}
+
+.cardznet-error,
+.cardznet-ok
+{
+	text-align: center;
+	height: 60px;
+	padding: 5px;
+}
+
+.cardznet-ok
+{
+	border: solid green 5px;
+}
+
+.cardznet-error
+{
+	border: solid red 5px;
+}
+
+div.cardznet_msgpage
+{
+	padding: 100px;
+}
+
+div.cardznet-login-container 
+{ 
+	display: block; 
+	text-align: center; 
+}
+
+div.cardznet-login-frame 
+{ 
+	border: solid black 1px; 
+	width: 400px; 
+	display: inline-block; 
+}
+
+div.cardznet-login-container form#loginform { margin-top: 20px; }
+div.cardznet-login-container form#loginform p { margin: 0px 20px 0px 0px; }
+div.cardznet-login-container form#loginform p.login-username { margin-top: 20px; }
+div.cardznet-login-container form#loginform label { margin: 0px 10px 0px 20px; }
+div.cardznet-login-container form#loginform input { margin: 0px 5px 10px 20px; }
+div.cardznet-login-container div#login-lost { margin: 0px 0px 20px 20px; }
+
+div#cardznet .ruleslink
+{
+	width: fit-content;
+	height: fit-content;
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	margin-right: 10px;
+}
+
+div#cardznet .ruleslink a
+{
+	color: black;
+	text-decoration: none;
+}
+
+div#cardznet .reload
+{
+    background-image: url(../images/reload.png); 
+}
+
+div#cardznet .fullscreen
+{
+    background-image: url(../images/fullscreen.png); 
+}
+
+div#cardznet .normalscreen
+{
+    background-image: url(../images/normalscreen.png); 
+}
+
+div#cardznet .swop
+{
+    background-image: url(../images/swop.png); 
+}
+
+div#cardznet .infobar-button
+{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+}
+
+body#cardznet_body .edit-link
+{
+	display: none;
+}

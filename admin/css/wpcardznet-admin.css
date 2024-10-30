@@ -1,0 +1,77 @@
+/* 
+Description: CardzNet Admin Style Sheet
+ 
+Copyright 2014 Malcolm Shergold
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+*/
+
+/* --------------------------------------------------------------------------- */
+/*                                                                             */
+/*                     WP CardzNet Admin Page Styles                             */
+/*                                                                             */
+/* --------------------------------------------------------------------------- */
+
+.groupcell,
+.gamecell
+{
+	margin: 10px;
+	padding-right: 10px;
+}
+
+.addgame_row_endgamescore,
+.addgame_row_submit
+{
+	margin-top: 20px;
+}
+
+/* --------------------------------------------------------------------------- */
+/*                                                                             */
+/*                 WP CardzNet Games Admin Page Styles                        */
+/*                                                                             */
+/* --------------------------------------------------------------------------- */
+
+#addgame
+{
+    border: solid black 1px;
+    padding: 0px 5px;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+#addgame select,
+#addgame input
+{
+	margin: 10px 5px;
+}
+
+
+.wpcardznetlib_hiderow
+{
+	display:none;
+}
+
+/* --------------------------------------------------------------------------- */
+/*                                                                             */
+/*                 WP CardzNet Settings Admin Page Styles                        */
+/*                                                                             */
+/* --------------------------------------------------------------------------- */
+
+table#wpcardznet-settings input
+{
+	margin-left: 0px;
+	padding-left: 10px
+}

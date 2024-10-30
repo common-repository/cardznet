@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\WPCardzNet.clpprj">
+ <settings>
+  <PM_URL><![CDATA[]]></PM_URL>
+  <PM_HOME_URL><![CDATA[]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+  <PM_LANGUAGE><![CDATA[]]></PM_LANGUAGE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <todoblock>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\games\js\wpcardznet_canasta.js">
+   <todo name="TODO: Find a meldframe that contains topDiscard" pos="2;732"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\games\js\wpcardznet_rummy.js">
+   <todo name="TODO - Invalid card displayed if first player takes card from the discard pile" pos="1;146"/>
+   <todo name="TODO - Limit new melds to one per turn" pos="1;147"/>
+   <todo name="TODO - Disable laying off cards until player has laid" pos="1;148"/>
+   <todo name="TODO - Greyed out should be removed once player has laid" pos="1;149"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\games\wpcardznet_canasta.php">
+   <todo name="TODO - Spacing should depend on cards" pos="3;171"/>
+   <todo name="TODO - Function Not Fully Implemented" pos="4;498"/>
+   <todo name="TODO - Function Not Implemented" pos="4;953"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\games\wpcardznet_one_eyed_jacks.php">
+   <todo name="TODO" pos="18;306"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\games\wpcardznet_rummy.php">
+   <todo name="TODO - Spacing should depend on cards" pos="3;137"/>
+   <todo name="TODO - No of players initialled fixed at 4" pos="34;156"/>
+   <todo name="TODO: No of cards varies with deal" pos="39;193"/>
+   <todo name="TODO - Function Not Fully Implemented" pos="4;383"/>
+   <todo name="TODO: Rummy - check if player has picked up" pos="4;687"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\include\mjslib_settingsadmin.php">
+   <todo name="TODO: - Create default file ...." pos="6;246"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\js\mjslib_js.js">
+   <todo name="TODO - Make this generic" pos="23;463"/>
+  </todofile>
+  <todofile name="U:\Internet\Wordpress\Plugins\WPCardzNet\Source\test\wpcardznet_test_rerun.php">
+   <todo name="TODO - This only works with 6 cards and 4 players" pos="4;131"/>
+  </todofile>
+ </todoblock>
+ <dbgurls/>
+ <lasttime value="1697138883"/>
+</project>

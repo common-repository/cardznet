@@ -1,0 +1,14 @@
+WPCardzNet.clpprj
+WPCardzNet_clcs.csprj
+dist/
+docs/
+assets/
+wpcardznetlib_debug.php
+wpcardznet_db_export.php
+wpcardznet_manage_tools.php
+help.txt
+TODO.txt
+tools/
+wpcardznet_canasta
+wpcardznet_rummy
+wpcardznet_sequence

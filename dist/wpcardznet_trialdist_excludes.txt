@@ -1,0 +1,5 @@
+WPPlayCards.clpprj
+WPPlayCards_clcs.csprj
+dist/
+assets/
+wpcardznetlib_debug.php

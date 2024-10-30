@@ -1,0 +1,160 @@
+/* 
+Description: CardzNet Admin Style Sheet
+ 
+Copyright 2014 Malcolm Shergold
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+*/
+
+div#wpcardznet .pageWidth
+{
+	min-width: 800px;
+}
+
+div#wpcardznet .page 
+{
+	width: 800px;
+	min-height: 600px !important;
+}
+
+/*
+div#wpcardznet .tablerow 
+{
+	height: 100px;
+}
+
+div#wpcardznet .playercards
+{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+*/
+div#wpcardznet .centrecards
+{
+	position: absolute;
+	left: 0px;
+	top: 210px;
+}
+
+div#wpcardznet #prev-discards
+{
+	display: none;
+}
+
+div#wpcardznet #cards_info 
+{ 
+	left: 350px; 
+	top: 260px; 
+	position: absolute; 
+	width: fit-content;
+	line-height: 30px;
+} 
+
+div#wpcardznet .ourmelds
+{
+	position: absolute;
+	left: 300px;
+	bottom: 10px;
+	height: 170px; 
+	width: auto;
+} 
+
+div#wpcardznet .greyedOut
+{
+	background-color: lightgray;
+}
+/*
+div#wpcardznet .theirmelds
+{
+	display: none;
+	position: absolute;
+	left: 200px;
+	height: 170px; 
+	top: 350px;
+	width: auto;
+}
+
+div#wpcardznet .buttonsDiv
+{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+div#wpcardznet .buttonsDiv input
+{
+	padding: 5px 10px 5px 10px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+*/
+div#wpcardznet .meldframe
+{
+	position: absolute;
+	height: 200px; 
+	width: 100px;
+	bottom: 20px;
+}
+
+div#wpcardznet .tableview
+{
+	top: 400px;
+}
+
+div#wpcardznet .selectedcard
+{
+	top: 13px !important;
+}
+/*
+div#wpcardznet .controls
+{
+	top: 130px !important;
+	left: auto;
+	position: relative;
+}
+*/
+div#wpcardznet #stock-cards .activecard 
+{
+    cursor: pointer !important;
+}
+/*
+div#wpcardznet .card-frame 
+{
+    border: black solid 2px;
+}
+
+div#wpcardznet .frame-empty 
+{
+  background-color: inherit;
+}
+*/
+div#wpcardznet .activeframe 
+{
+    border-color: red !important;
+}
+/*
+html#wpcardznet_html
+{
+	background-color: #669933;
+}
+
+div#wpcardznet .clock
+{
+	background-image: url(../images/clock.png);
+}
+
+*/

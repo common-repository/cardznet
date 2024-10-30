@@ -1,0 +1,90 @@
+/* 
+Description: CardzNet Admin Style Sheet
+ 
+Copyright 2014 Malcolm Shergold
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+*/
+
+div#wpcardznet .pageWidth
+{
+	min-width: 800px;
+}
+
+div#wpcardznet .page 
+{
+	width: 800px;
+	min-height: 600px !important;
+	margin-left: 0px;
+}
+
+div#wpcardznet .playercards
+{
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+
+div#wpcardznet .centrecards
+{
+	position: absolute;
+	left: 300px;
+	top: 180px;
+}
+
+div#wpcardznet .lasttrick-frame
+{
+	position: absolute;
+	
+	border: solid black 1px;
+	
+	left: 280px;
+	top: 350px;
+	height: 170px; 
+	width: 500px;
+}
+
+div#wpcardznet .lasttrick
+{
+	position: absolute;
+	left: 130px;
+	top: 20px;
+}
+
+div#wpcardznet .lastwinner
+{
+	position: absolute;
+	left: 30px;
+	top: 40px;
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+}
+
+div#wpcardznet .tableview
+{
+	top: 350px;
+}
+
+div#wpcardznet .selectedcard
+{
+top: 20px !important;
+}
+
+div#wpcardznet .controls
+{
+	top: 50px !important;
+}

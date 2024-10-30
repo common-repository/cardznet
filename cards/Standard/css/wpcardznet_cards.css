@@ -1,0 +1,292 @@
+/* 
+Description: CardzNet Admin Style Sheet
+ 
+Copyright 2014 Malcolm Shergold
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+*/
+
+/*
+	Vertical Cards
+*/
+
+div#wpcardznet .tablediv { 
+height: 123px; 
+}
+
+div#wpcardznet .cards-l-75 .counter
+{
+}
+
+div#wpcardznet .cards-p .card-div { 
+height: 123px; 
+width: 79px; 
+}
+
+div#wpcardznet .cards-p .ace-of-clubs {  background-position: 0px 0px }
+div#wpcardznet .cards-p .two-of-clubs {  background-position: -79px 0px }
+div#wpcardznet .cards-p .three-of-clubs {  background-position: -158px 0px }
+div#wpcardznet .cards-p .four-of-clubs {  background-position: -237px 0px }
+div#wpcardznet .cards-p .five-of-clubs {  background-position: -316px 0px }
+div#wpcardznet .cards-p .six-of-clubs {  background-position: -395px 0px }
+div#wpcardznet .cards-p .seven-of-clubs {  background-position: -474px 0px }
+div#wpcardznet .cards-p .eight-of-clubs {  background-position: -553px 0px }
+div#wpcardznet .cards-p .nine-of-clubs {  background-position: -632px 0px }
+div#wpcardznet .cards-p .ten-of-clubs {  background-position: -711px 0px }
+div#wpcardznet .cards-p .jack-of-clubs {  background-position: -790px 0px }
+div#wpcardznet .cards-p .queen-of-clubs {  background-position: -869px 0px }
+div#wpcardznet .cards-p .king-of-clubs {  background-position: -948px 0px }
+div#wpcardznet .cards-p .ace-of-diamonds {  background-position: 0px -123px }
+div#wpcardznet .cards-p .two-of-diamonds {  background-position: -79px -123px }
+div#wpcardznet .cards-p .three-of-diamonds {  background-position: -158px -123px }
+div#wpcardznet .cards-p .four-of-diamonds {  background-position: -237px -123px }
+div#wpcardznet .cards-p .five-of-diamonds {  background-position: -316px -123px }
+div#wpcardznet .cards-p .six-of-diamonds {  background-position: -395px -123px }
+div#wpcardznet .cards-p .seven-of-diamonds {  background-position: -474px -123px }
+div#wpcardznet .cards-p .eight-of-diamonds {  background-position: -553px -123px }
+div#wpcardznet .cards-p .nine-of-diamonds {  background-position: -632px -123px }
+div#wpcardznet .cards-p .ten-of-diamonds {  background-position: -711px -123px }
+div#wpcardznet .cards-p .jack-of-diamonds {  background-position: -790px -123px }
+div#wpcardznet .cards-p .queen-of-diamonds {  background-position: -869px -123px }
+div#wpcardznet .cards-p .king-of-diamonds {  background-position: -948px -123px }
+div#wpcardznet .cards-p .ace-of-hearts {  background-position: 0px -246px }
+div#wpcardznet .cards-p .two-of-hearts {  background-position: -79px -246px }
+div#wpcardznet .cards-p .three-of-hearts {  background-position: -158px -246px }
+div#wpcardznet .cards-p .four-of-hearts {  background-position: -237px -246px }
+div#wpcardznet .cards-p .five-of-hearts {  background-position: -316px -246px }
+div#wpcardznet .cards-p .six-of-hearts {  background-position: -395px -246px }
+div#wpcardznet .cards-p .seven-of-hearts {  background-position: -474px -246px }
+div#wpcardznet .cards-p .eight-of-hearts {  background-position: -553px -246px }
+div#wpcardznet .cards-p .nine-of-hearts {  background-position: -632px -246px }
+div#wpcardznet .cards-p .ten-of-hearts {  background-position: -711px -246px }
+div#wpcardznet .cards-p .jack-of-hearts {  background-position: -790px -246px }
+div#wpcardznet .cards-p .queen-of-hearts {  background-position: -869px -246px }
+div#wpcardznet .cards-p .king-of-hearts {  background-position: -948px -246px }
+div#wpcardznet .cards-p .ace-of-spades {  background-position: 0px -369px }
+div#wpcardznet .cards-p .two-of-spades {  background-position: -79px -369px }
+div#wpcardznet .cards-p .three-of-spades {  background-position: -158px -369px }
+div#wpcardznet .cards-p .four-of-spades {  background-position: -237px -369px }
+div#wpcardznet .cards-p .five-of-spades {  background-position: -316px -369px }
+div#wpcardznet .cards-p .six-of-spades {  background-position: -395px -369px }
+div#wpcardznet .cards-p .seven-of-spades {  background-position: -474px -369px }
+div#wpcardznet .cards-p .eight-of-spades {  background-position: -553px -369px }
+div#wpcardznet .cards-p .nine-of-spades {  background-position: -632px -369px }
+div#wpcardznet .cards-p .ten-of-spades {  background-position: -711px -369px }
+div#wpcardznet .cards-p .jack-of-spades {  background-position: -790px -369px }
+div#wpcardznet .cards-p .queen-of-spades {  background-position: -869px -369px }
+div#wpcardznet .cards-p .king-of-spades {  background-position: -948px -369px }
+div#wpcardznet .cards-p .joker-of-black {  background-position: 0px -492px }
+div#wpcardznet .cards-p .joker-of-red {  background-position: -79px -492px }
+div#wpcardznet .cards-p .card-back {  background-position: -158px -492px }
+div#wpcardznet .cards-p .card-hidden {  background-position: -237px -492px }
+div#wpcardznet .cards-p .card-blank {  background-position: -316px -492px }
+div#wpcardznet .cards-p .card-empty {  background-position: -395px -492px }
+
+
+div#wpcardznet .cards-p-75 .card-div { 
+height: 92px; 
+width: 59px; 
+}
+
+div#wpcardznet .cards-p-75 .ace-of-clubs {  background-position: 0px 0px }
+div#wpcardznet .cards-p-75 .two-of-clubs {  background-position: -59px 0px }
+div#wpcardznet .cards-p-75 .three-of-clubs {  background-position: -119px 0px }
+div#wpcardznet .cards-p-75 .four-of-clubs {  background-position: -178px 0px }
+div#wpcardznet .cards-p-75 .five-of-clubs {  background-position: -237px 0px }
+div#wpcardznet .cards-p-75 .six-of-clubs {  background-position: -296px 0px }
+div#wpcardznet .cards-p-75 .seven-of-clubs {  background-position: -356px 0px }
+div#wpcardznet .cards-p-75 .eight-of-clubs {  background-position: -415px 0px }
+div#wpcardznet .cards-p-75 .nine-of-clubs {  background-position: -474px 0px }
+div#wpcardznet .cards-p-75 .ten-of-clubs {  background-position: -533px 0px }
+div#wpcardznet .cards-p-75 .jack-of-clubs {  background-position: -593px 0px }
+div#wpcardznet .cards-p-75 .queen-of-clubs {  background-position: -652px 0px }
+div#wpcardznet .cards-p-75 .king-of-clubs {  background-position: -711px 0px }
+div#wpcardznet .cards-p-75 .ace-of-diamonds {  background-position: 0px -92px }
+div#wpcardznet .cards-p-75 .two-of-diamonds {  background-position: -59px -92px }
+div#wpcardznet .cards-p-75 .three-of-diamonds {  background-position: -119px -92px }
+div#wpcardznet .cards-p-75 .four-of-diamonds {  background-position: -178px -92px }
+div#wpcardznet .cards-p-75 .five-of-diamonds {  background-position: -237px -92px }
+div#wpcardznet .cards-p-75 .six-of-diamonds {  background-position: -296px -92px }
+div#wpcardznet .cards-p-75 .seven-of-diamonds {  background-position: -356px -92px }
+div#wpcardznet .cards-p-75 .eight-of-diamonds {  background-position: -415px -92px }
+div#wpcardznet .cards-p-75 .nine-of-diamonds {  background-position: -474px -92px }
+div#wpcardznet .cards-p-75 .ten-of-diamonds {  background-position: -533px -92px }
+div#wpcardznet .cards-p-75 .jack-of-diamonds {  background-position: -593px -92px }
+div#wpcardznet .cards-p-75 .queen-of-diamonds {  background-position: -652px -92px }
+div#wpcardznet .cards-p-75 .king-of-diamonds {  background-position: -711px -92px }
+div#wpcardznet .cards-p-75 .ace-of-hearts {  background-position: 0px -185px }
+div#wpcardznet .cards-p-75 .two-of-hearts {  background-position: -59px -185px }
+div#wpcardznet .cards-p-75 .three-of-hearts {  background-position: -119px -185px }
+div#wpcardznet .cards-p-75 .four-of-hearts {  background-position: -178px -185px }
+div#wpcardznet .cards-p-75 .five-of-hearts {  background-position: -237px -185px }
+div#wpcardznet .cards-p-75 .six-of-hearts {  background-position: -296px -185px }
+div#wpcardznet .cards-p-75 .seven-of-hearts {  background-position: -356px -185px }
+div#wpcardznet .cards-p-75 .eight-of-hearts {  background-position: -415px -185px }
+div#wpcardznet .cards-p-75 .nine-of-hearts {  background-position: -474px -185px }
+div#wpcardznet .cards-p-75 .ten-of-hearts {  background-position: -533px -185px }
+div#wpcardznet .cards-p-75 .jack-of-hearts {  background-position: -593px -185px }
+div#wpcardznet .cards-p-75 .queen-of-hearts {  background-position: -652px -185px }
+div#wpcardznet .cards-p-75 .king-of-hearts {  background-position: -711px -185px }
+div#wpcardznet .cards-p-75 .ace-of-spades {  background-position: 0px -277px }
+div#wpcardznet .cards-p-75 .two-of-spades {  background-position: -59px -277px }
+div#wpcardznet .cards-p-75 .three-of-spades {  background-position: -119px -277px }
+div#wpcardznet .cards-p-75 .four-of-spades {  background-position: -178px -277px }
+div#wpcardznet .cards-p-75 .five-of-spades {  background-position: -237px -277px }
+div#wpcardznet .cards-p-75 .six-of-spades {  background-position: -296px -277px }
+div#wpcardznet .cards-p-75 .seven-of-spades {  background-position: -356px -277px }
+div#wpcardznet .cards-p-75 .eight-of-spades {  background-position: -415px -277px }
+div#wpcardznet .cards-p-75 .nine-of-spades {  background-position: -474px -277px }
+div#wpcardznet .cards-p-75 .ten-of-spades {  background-position: -533px -277px }
+div#wpcardznet .cards-p-75 .jack-of-spades {  background-position: -593px -277px }
+div#wpcardznet .cards-p-75 .queen-of-spades {  background-position: -652px -277px }
+div#wpcardznet .cards-p-75 .king-of-spades {  background-position: -711px -277px }
+div#wpcardznet .cards-p-75 .joker-of-black {  background-position: 0px -369px }
+div#wpcardznet .cards-p-75 .joker-of-red {  background-position: -59px -369px }
+div#wpcardznet .cards-p-75 .card-back {  background-position: -119px -369px }
+div#wpcardznet .cards-p-75 .card-hidden {  background-position: -178px -369px }
+div#wpcardznet .cards-p-75 .card-blank {  background-position: -237px -369px }
+div#wpcardznet .cards-p-75 .card-empty {  background-position: -296px -369px }
+
+
+
+div#wpcardznet .cards-l .card-div { 
+height: 79px; 
+width: 123px; 
+}
+
+div#wpcardznet .cards-l .ace-of-clubs {  background-position: -492px 0px }
+div#wpcardznet .cards-l .two-of-clubs {  background-position: -492px -79px }
+div#wpcardznet .cards-l .three-of-clubs {  background-position: -492px -158px }
+div#wpcardznet .cards-l .four-of-clubs {  background-position: -492px -237px }
+div#wpcardznet .cards-l .five-of-clubs {  background-position: -492px -316px }
+div#wpcardznet .cards-l .six-of-clubs {  background-position: -492px -395px }
+div#wpcardznet .cards-l .seven-of-clubs {  background-position: -492px -474px }
+div#wpcardznet .cards-l .eight-of-clubs {  background-position: -492px -553px }
+div#wpcardznet .cards-l .nine-of-clubs {  background-position: -492px -632px }
+div#wpcardznet .cards-l .ten-of-clubs {  background-position: -492px -711px }
+div#wpcardznet .cards-l .jack-of-clubs {  background-position: -492px -790px }
+div#wpcardznet .cards-l .queen-of-clubs {  background-position: -492px -869px }
+div#wpcardznet .cards-l .king-of-clubs {  background-position: -492px -948px }
+div#wpcardznet .cards-l .ace-of-diamonds {  background-position: -369px 0px }
+div#wpcardznet .cards-l .two-of-diamonds {  background-position: -369px -79px }
+div#wpcardznet .cards-l .three-of-diamonds {  background-position: -369px -158px }
+div#wpcardznet .cards-l .four-of-diamonds {  background-position: -369px -237px }
+div#wpcardznet .cards-l .five-of-diamonds {  background-position: -369px -316px }
+div#wpcardznet .cards-l .six-of-diamonds {  background-position: -369px -395px }
+div#wpcardznet .cards-l .seven-of-diamonds {  background-position: -369px -474px }
+div#wpcardznet .cards-l .eight-of-diamonds {  background-position: -369px -553px }
+div#wpcardznet .cards-l .nine-of-diamonds {  background-position: -369px -632px }
+div#wpcardznet .cards-l .ten-of-diamonds {  background-position: -369px -711px }
+div#wpcardznet .cards-l .jack-of-diamonds {  background-position: -369px -790px }
+div#wpcardznet .cards-l .queen-of-diamonds {  background-position: -369px -869px }
+div#wpcardznet .cards-l .king-of-diamonds {  background-position: -369px -948px }
+div#wpcardznet .cards-l .ace-of-hearts {  background-position: -246px 0px }
+div#wpcardznet .cards-l .two-of-hearts {  background-position: -246px -79px }
+div#wpcardznet .cards-l .three-of-hearts {  background-position: -246px -158px }
+div#wpcardznet .cards-l .four-of-hearts {  background-position: -246px -237px }
+div#wpcardznet .cards-l .five-of-hearts {  background-position: -246px -316px }
+div#wpcardznet .cards-l .six-of-hearts {  background-position: -246px -395px }
+div#wpcardznet .cards-l .seven-of-hearts {  background-position: -246px -474px }
+div#wpcardznet .cards-l .eight-of-hearts {  background-position: -246px -553px }
+div#wpcardznet .cards-l .nine-of-hearts {  background-position: -246px -632px }
+div#wpcardznet .cards-l .ten-of-hearts {  background-position: -246px -711px }
+div#wpcardznet .cards-l .jack-of-hearts {  background-position: -246px -790px }
+div#wpcardznet .cards-l .queen-of-hearts {  background-position: -246px -869px }
+div#wpcardznet .cards-l .king-of-hearts {  background-position: -246px -948px }
+div#wpcardznet .cards-l .ace-of-spades {  background-position: -123px 0px }
+div#wpcardznet .cards-l .two-of-spades {  background-position: -123px -79px }
+div#wpcardznet .cards-l .three-of-spades {  background-position: -123px -158px }
+div#wpcardznet .cards-l .four-of-spades {  background-position: -123px -237px }
+div#wpcardznet .cards-l .five-of-spades {  background-position: -123px -316px }
+div#wpcardznet .cards-l .six-of-spades {  background-position: -123px -395px }
+div#wpcardznet .cards-l .seven-of-spades {  background-position: -123px -474px }
+div#wpcardznet .cards-l .eight-of-spades {  background-position: -123px -553px }
+div#wpcardznet .cards-l .nine-of-spades {  background-position: -123px -632px }
+div#wpcardznet .cards-l .ten-of-spades {  background-position: -123px -711px }
+div#wpcardznet .cards-l .jack-of-spades {  background-position: -123px -790px }
+div#wpcardznet .cards-l .queen-of-spades {  background-position: -123px -869px }
+div#wpcardznet .cards-l .king-of-spades {  background-position: -123px -948px }
+div#wpcardznet .cards-l .joker-of-black {  background-position: 0px 0px }
+div#wpcardznet .cards-l .joker-of-red {  background-position: 0px -79px }
+div#wpcardznet .cards-l .card-back {  background-position: 0px -158px }
+div#wpcardznet .cards-l .card-hidden {  background-position: 0px -237px }
+div#wpcardznet .cards-l .card-blank {  background-position: 0px -316px }
+div#wpcardznet .cards-l .card-empty {  background-position: 0px -395px }
+
+
+div#wpcardznet .cards-l-75 .card-div { 
+height: 59px; 
+width: 92px; 
+}
+
+div#wpcardznet .cards-l-75 .ace-of-clubs {  background-position: -369px 0px }
+div#wpcardznet .cards-l-75 .two-of-clubs {  background-position: -369px -59px }
+div#wpcardznet .cards-l-75 .three-of-clubs {  background-position: -369px -119px }
+div#wpcardznet .cards-l-75 .four-of-clubs {  background-position: -369px -178px }
+div#wpcardznet .cards-l-75 .five-of-clubs {  background-position: -369px -237px }
+div#wpcardznet .cards-l-75 .six-of-clubs {  background-position: -369px -296px }
+div#wpcardznet .cards-l-75 .seven-of-clubs {  background-position: -369px -356px }
+div#wpcardznet .cards-l-75 .eight-of-clubs {  background-position: -369px -415px }
+div#wpcardznet .cards-l-75 .nine-of-clubs {  background-position: -369px -474px }
+div#wpcardznet .cards-l-75 .ten-of-clubs {  background-position: -369px -533px }
+div#wpcardznet .cards-l-75 .jack-of-clubs {  background-position: -369px -593px }
+div#wpcardznet .cards-l-75 .queen-of-clubs {  background-position: -369px -652px }
+div#wpcardznet .cards-l-75 .king-of-clubs {  background-position: -369px -711px }
+div#wpcardznet .cards-l-75 .ace-of-diamonds {  background-position: -277px 0px }
+div#wpcardznet .cards-l-75 .two-of-diamonds {  background-position: -277px -59px }
+div#wpcardznet .cards-l-75 .three-of-diamonds {  background-position: -277px -119px }
+div#wpcardznet .cards-l-75 .four-of-diamonds {  background-position: -277px -178px }
+div#wpcardznet .cards-l-75 .five-of-diamonds {  background-position: -277px -237px }
+div#wpcardznet .cards-l-75 .six-of-diamonds {  background-position: -277px -296px }
+div#wpcardznet .cards-l-75 .seven-of-diamonds {  background-position: -277px -356px }
+div#wpcardznet .cards-l-75 .eight-of-diamonds {  background-position: -277px -415px }
+div#wpcardznet .cards-l-75 .nine-of-diamonds {  background-position: -277px -474px }
+div#wpcardznet .cards-l-75 .ten-of-diamonds {  background-position: -277px -533px }
+div#wpcardznet .cards-l-75 .jack-of-diamonds {  background-position: -277px -593px }
+div#wpcardznet .cards-l-75 .queen-of-diamonds {  background-position: -277px -652px }
+div#wpcardznet .cards-l-75 .king-of-diamonds {  background-position: -277px -711px }
+div#wpcardznet .cards-l-75 .ace-of-hearts {  background-position: -185px 0px }
+div#wpcardznet .cards-l-75 .two-of-hearts {  background-position: -185px -59px }
+div#wpcardznet .cards-l-75 .three-of-hearts {  background-position: -185px -119px }
+div#wpcardznet .cards-l-75 .four-of-hearts {  background-position: -185px -178px }
+div#wpcardznet .cards-l-75 .five-of-hearts {  background-position: -185px -237px }
+div#wpcardznet .cards-l-75 .six-of-hearts {  background-position: -185px -296px }
+div#wpcardznet .cards-l-75 .seven-of-hearts {  background-position: -185px -356px }
+div#wpcardznet .cards-l-75 .eight-of-hearts {  background-position: -185px -415px }
+div#wpcardznet .cards-l-75 .nine-of-hearts {  background-position: -185px -474px }
+div#wpcardznet .cards-l-75 .ten-of-hearts {  background-position: -185px -533px }
+div#wpcardznet .cards-l-75 .jack-of-hearts {  background-position: -185px -593px }
+div#wpcardznet .cards-l-75 .queen-of-hearts {  background-position: -185px -652px }
+div#wpcardznet .cards-l-75 .king-of-hearts {  background-position: -185px -711px }
+div#wpcardznet .cards-l-75 .ace-of-spades {  background-position: -92px 0px }
+div#wpcardznet .cards-l-75 .two-of-spades {  background-position: -92px -59px }
+div#wpcardznet .cards-l-75 .three-of-spades {  background-position: -92px -119px }
+div#wpcardznet .cards-l-75 .four-of-spades {  background-position: -92px -178px }
+div#wpcardznet .cards-l-75 .five-of-spades {  background-position: -92px -237px }
+div#wpcardznet .cards-l-75 .six-of-spades {  background-position: -92px -296px }
+div#wpcardznet .cards-l-75 .seven-of-spades {  background-position: -92px -356px }
+div#wpcardznet .cards-l-75 .eight-of-spades {  background-position: -92px -415px }
+div#wpcardznet .cards-l-75 .nine-of-spades {  background-position: -92px -474px }
+div#wpcardznet .cards-l-75 .ten-of-spades {  background-position: -92px -533px }
+div#wpcardznet .cards-l-75 .jack-of-spades {  background-position: -92px -593px }
+div#wpcardznet .cards-l-75 .queen-of-spades {  background-position: -92px -652px }
+div#wpcardznet .cards-l-75 .king-of-spades {  background-position: -92px -711px }
+div#wpcardznet .cards-l-75 .joker-of-black {  background-position: 0px 0px }
+div#wpcardznet .cards-l-75 .joker-of-red {  background-position: 0px -59px }
+div#wpcardznet .cards-l-75 .card-back {  background-position: 0px -119px }
+div#wpcardznet .cards-l-75 .card-hidden {  background-position: 0px -178px }
+div#wpcardznet .cards-l-75 .card-blank {  background-position: 0px -237px }
+div#wpcardznet .cards-l-75 .card-empty {  background-position: 0px -296px }
